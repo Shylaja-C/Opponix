@@ -22,49 +22,4 @@
 | **Frontend** | HTML, CSS, JavaScript, React.js, Tailwind CSS |
 | **Backend**  | Node.js, Express.js *(optional: Firebase/GraphQL)* |
 | **Database** | MongoDB / Firebase                          |
-| **AI/ML**    | OpenAI GPT models for argument evaluation & simulation |
-| **Blockchain** *(optional)* | Solidity for on-chain voting or reward mechanisms |
-| **Hosting**  | Vercel / Netlify (Frontend), Render / Heroku (Backend) |
 
----
-
-## 📁 Folder Structure
-
-``bash
-opponix/
-├── public/               # Static files (images, icons, etc.)
-├── src/
-│   ├── components/       # Reusable UI components
-│   ├── pages/            # Main pages like Home, Courses, Games
-│   ├── assets/           # Fonts, illustrations, etc.
-│   ├── utils/            # Helper functions and services
-│   ├── App.js            # Main application file
-│   └── index.js          # App entry point
-├── smart-contracts/      # Solidity contracts for voting or rewards
-├── README.md             # Project overview
-└── package.json          # Dependencies and scripts
-
-
----
-
-## 🧪 Getting Started Locally
-
-### Prerequisites
-
-- Node.js & npm  
-- Git
-
-### Setup Instructions
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/opponix.git
-
-# Navigate into the project directory
-cd opponix
-
-# Install frontend dependencies
-npm install
-
-# Start development server
-npm run dev
